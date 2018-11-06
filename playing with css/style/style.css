@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5f5ef;
+    text-align: center;
+}
+.controls{
+    display: block;
+    margin: 20px auto;
+}
+:root{
+    --base: #ffc600;
+    --blur: 10px;
+    --spacing: 10px;
+}
+img{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
